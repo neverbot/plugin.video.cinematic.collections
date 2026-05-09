@@ -8,6 +8,14 @@ DC Extended Universe — or for any custom list you want to keep around (a
 
 Built and tested on Kodi Omega (v21).
 
+![Marvel Cinematic Universe collection rendered in the Copacetic skin's fanart view. The focused item's fanart fills the background; watched items show a checkmark.](screenshots/copacetic-mcu.png)
+
+*The "Marvel Cinematic Universe" collection rendered with the Copacetic skin in fanart view. Movies and TV shows are mixed in the user's chosen order; the focused item's fanart drives the background; watched items show a checkmark next to their title.*
+
+![Star Wars collection in the Copacetic skin showing several items already watched.](screenshots/copacetic-starwars.png)
+
+*The "Star Wars" collection — same view as above, with checkmarks on items that have already been watched. The watched state is read fresh from the Kodi library on every open, so the indicators are always up to date.*
+
 ## What it does
 
 - Adds a context-menu entry "Add to collection…" on every movie and TV show
