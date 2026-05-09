@@ -64,6 +64,53 @@ and "Move down" reorder it relative to its neighbours.
 If you re-scrape something and want the collection to reflect the new data,
 right-click the item or the whole collection and pick "Refresh metadata".
 
+## Adding a shortcut to the home menu
+
+The plugin lives under Add-ons → Video add-ons by default. The way to put
+your collections on the Kodi home screen depends on which skin you use.
+
+### Estuary (the default skin shipped with Kodi)
+
+Estuary's home menu only exposes toggles for its built-in items (Movies, TV
+shows, Music, Add-ons, Favourites…); it does **not** let you add a custom
+item pointing to a plugin path. The workaround is to add each collection as
+a Kodi favourite — those show up under the **Favourites** entry on the home
+screen.
+
+1. On the Kodi home screen, go to **Add-ons**.
+2. Find **Cinematic Collections** in the list and select it. You land on
+   the addon's information page.
+3. Press **Open** (the rocket button on the left). The list of your
+   collections appears.
+4. Focus the collection you want a shortcut for, open its context menu and
+   pick **Add to favourites**.
+5. Make sure the **Favourites** item is enabled in
+   Settings → Interface → Skin → Configure skin → **Main menu items**.
+6. From now on, that collection is reachable from home → Favourites in one
+   click. Repeat for as many collections as you want.
+
+### Other skins (Copacetic, Aeon Nox, Arctic Zephyr, Amber, Estuary MOD V2, etc.)
+
+Most third-party skins **do** support adding arbitrary items to the home
+menu, and that is the cleanest way to integrate Cinematic Collections —
+typically you can put a "Collections" entry next to "Movies", "TV shows",
+"Music", etc., and even attach a widget that previews the contents of one
+of your collections.
+
+Each skin has its own home-menu editor, reachable from the skin's settings
+or by opening the context menu on a home-screen item. Consult your skin's
+documentation for the exact path. The action target you need to enter is
+always the same:
+
+```
+ActivateWindow(Videos,plugin://plugin.video.cinematic.collections/,return)
+```
+
+If your skin's editor lets you browse to an add-on visually instead of
+typing this string, navigate to **Add-ons → Video add-ons →
+Cinematic Collections** and pick that — the editor will fill the action
+in for you.
+
 ## How it stores things
 
 A single JSON file under your Kodi profile:
