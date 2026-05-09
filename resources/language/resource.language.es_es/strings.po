@@ -1,0 +1,93 @@
+# Kodi Media Center language file
+# Addon Name: Cinematic Collections
+# Addon id: plugin.video.cinematic.collections
+# Addon Provider: neverbot
+msgid ""
+msgstr ""
+"Project-Id-Version: Cinematic Collections\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "#30100"
+msgid "Add to collection…"
+msgstr "Añadir a colección…"
+
+msgctxt "#30101"
+msgid "Create new collection"
+msgstr "Crear nueva colección"
+
+msgctxt "#30102"
+msgid "Collection name"
+msgstr "Nombre de la colección"
+
+msgctxt "#30103"
+msgid "Added to '%s'"
+msgstr "Añadido a '%s'"
+
+msgctxt "#30104"
+msgid "Already in '%s'"
+msgstr "Ya está en '%s'"
+
+msgctxt "#30105"
+msgid "Remove from collection"
+msgstr "Quitar de la colección"
+
+msgctxt "#30106"
+msgid "Move up"
+msgstr "Subir una posición"
+
+msgctxt "#30107"
+msgid "Move down"
+msgstr "Bajar una posición"
+
+msgctxt "#30108"
+msgid "Rename collection"
+msgstr "Renombrar colección"
+
+msgctxt "#30109"
+msgid "Delete collection"
+msgstr "Borrar colección"
+
+msgctxt "#30110"
+msgid "Delete '%s' and all its items?"
+msgstr "¿Borrar '%s' y todos sus elementos?"
+
+msgctxt "#30111"
+msgid "No collections yet. Use the context menu on a movie or TV show to add the first one."
+msgstr "Todavía no hay colecciones. Usa el menú contextual sobre una película o serie para añadir la primera."
+
+msgctxt "#30112"
+msgid "Empty collection"
+msgstr "Colección vacía"
+
+msgctxt "#30113"
+msgid "(unavailable)"
+msgstr "(no disponible)"
+
+msgctxt "#30114"
+msgid "No collections defined"
+msgstr "No hay colecciones definidas"
+
+msgctxt "#30115"
+msgid "Item not found in library"
+msgstr "Elemento no encontrado en la biblioteca"
+
+msgctxt "#30116"
+msgid "Refresh metadata"
+msgstr "Actualizar datos"
+
+msgctxt "#30117"
+msgid "Item updated"
+msgstr "Elemento actualizado"
+
+msgctxt "#30118"
+msgid "Updated %d items"
+msgstr "%d elementos actualizados"
+
+msgctxt "#30119"
+msgid "Updating '%s'…"
+msgstr "Actualizando '%s'…"
