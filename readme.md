@@ -30,16 +30,34 @@ Built and tested on Kodi Omega (v21).
 
 ## Installing
 
-Until this is published in a Kodi addon repository, install from a zip:
+The recommended way is through the
+[`neverbot/kodi-addons` repository](https://github.com/neverbot/kodi-addons),
+which gives you automatic updates whenever a new version of this addon (or
+any other neverbot addon) is published. One-time setup:
 
-1. Download a release zip from the
+1. Download the
+   [repository add-on zip](https://neverbot.github.io/kodi-addons/repository.neverbot/repository.neverbot-1.0.0.zip).
+2. In Kodi: **Settings → Add-ons → Install from zip file** → pick the
+   file. (You may need to enable "Unknown sources" first.)
+3. **Settings → Add-ons → Install from repository → neverbot's Kodi
+   add-ons → Video add-ons → Cinematic Collections → Install**.
+
+Kodi pulls updates from the repository on its normal schedule (about once
+an hour); no further action needed when new versions are released.
+
+### Manual install (without the repository)
+
+If you'd rather skip the repository step, you can grab the addon zip
+directly and install it as a one-off:
+
+1. Download the latest zip from the
    [Releases page](https://github.com/neverbot/plugin.video.cinematic.collections/releases)
-   (or `git archive` your own).
-2. In Kodi: Settings → Add-ons → Install from zip file → pick the file.
-3. Kodi will install the addon and its context-menu hook automatically.
+   (or directly from
+   <https://neverbot.github.io/kodi-addons/plugin.video.cinematic.collections/>).
+2. In Kodi: **Settings → Add-ons → Install from zip file** → pick it.
 
-You can also drop the repository directly into Kodi's `addons/` directory
-and restart Kodi (handy for development — see below).
+Manual installs do not get auto-updates; you'll have to repeat this each
+time you want to bump versions.
 
 ## Using
 
