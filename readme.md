@@ -52,8 +52,8 @@ directly and install it as a one-off:
 
 1. Download the latest zip from the
    [Releases page](https://github.com/neverbot/plugin.video.cinematic.collections/releases)
-   (or directly from
-   <https://neverbot.github.io/kodi-addons/plugin.video.cinematic.collections/>).
+   (or from <https://neverbot.github.io/kodi-addons/>, which always lists
+   the current version).
 2. In Kodi: **Settings → Add-ons → Install from zip file** → pick it.
 
 Manual installs do not get auto-updates; you'll have to repeat this each
